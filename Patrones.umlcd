@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_nQ5zQEljEei_D5ZERlKKng">
+  <modelElement href="Patrones.uml#_oqdAIEljEei_D5ZERlKKng"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q1Z0wEljEei_D5ZERlKKng" sourceAnchor="168.0,0.0" targetAnchor="86.0,71.0" dashed="true" superClass="_q1eGMEljEei_D5ZERlKKng" subClass="_qxgMMEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_pyF9oEljEei_D5ZERlKKng"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_q2ey0EljEei_D5ZERlKKng" sourceAnchor="209.0,0.0" targetAnchor="336.0,60.0" target="_qxgMMEljEei_D5ZERlKKng" source="_q3VucEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_p5N5UEljEei_D5ZERlKKng"/>
+    <bendpoints xmi:id="_rnFJUEljEei_D5ZERlKKng" sourceY="-68" targetX="727"/>
+    <stereotypes xmi:id="_q2s1QEljEei_D5ZERlKKng" name="Reference">
+      <modelElement href="Patrones.uml#_p5PHcEljEei_D5ZERlKKng"/>
+    </stereotypes>
+    <nameVisual xmi:id="_q2muoEljEei_D5ZERlKKng" text="">
+      <visualProperties xmi:id="_rnOTQEljEei_D5ZERlKKng" position="-11.945684440932837,17.478153413732315"/>
+    </nameVisual>
+    <sourceRole xmi:id="_q2n8wEljEei_D5ZERlKKng" aggregationKind="NONE" name="">
+      <modelElement href="Patrones.uml#_p5N5UUljEei_D5ZERlKKng"/>
+      <visualProperties xmi:id="_rnMeEEljEei_D5ZERlKKng" position="3.0958372563927696,-67.46567103246787"/>
+      <visibility xmi:id="_q3MkgUljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q3MkgEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_q2n8wUljEei_D5ZERlKKng" aggregationKind="NONE" name="_estrategia" navigable="true">
+      <modelElement href="Patrones.uml#_p3roQEljEei_D5ZERlKKng"/>
+      <visualProperties xmi:id="_rnO6UEljEei_D5ZERlKKng" position="702.0958372563928,0.534328967532133"/>
+      <visibility xmi:id="_q3NyoEljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3NLkEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_q24bcEljEei_D5ZERlKKng" targetItem="_q3VujEljEei_D5ZERlKKng" sourceItem="_q21_MEljEei_D5ZERlKKng"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q5JFQEljEei_D5ZERlKKng" sourceAnchor="182.0,0.0" targetAnchor="168.0,99.0" superClass="_qxgMMEljEei_D5ZERlKKng" subClass="_q5N9wEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_pz-M8EljEei_D5ZERlKKng"/>
+    <bendpoints xmi:id="_rnIzsEljEei_D5ZERlKKng" sourceY="-29" targetX="427" targetY="28"/>
+    <bendpoints xmi:id="_rnIzsUljEei_D5ZERlKKng" sourceX="-427" sourceY="-29" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q5S2QEljEei_D5ZERlKKng" sourceAnchor="261.0,0.0" targetAnchor="168.0,99.0" superClass="_qxgMMEljEei_D5ZERlKKng" subClass="_q5VSgEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_pz7JoEljEei_D5ZERlKKng"/>
+    <bendpoints xmi:id="_rnJawEljEei_D5ZERlKKng" sourceY="-229" targetX="624" targetY="28"/>
+    <bendpoints xmi:id="_rnKB0EljEei_D5ZERlKKng" sourceX="-624" sourceY="-229" targetY="28"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_q5Zj8EljEei_D5ZERlKKng" sourceAnchor="83.0,0.0" targetAnchor="168.0,99.0" superClass="_qxgMMEljEei_D5ZERlKKng" subClass="_q5cAMEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_pz8XwEljEei_D5ZERlKKng"/>
+    <bendpoints xmi:id="_rnL3AEljEei_D5ZERlKKng" sourceY="-409" targetX="230" targetY="28"/>
+    <bendpoints xmi:id="_rnL3AUljEei_D5ZERlKKng" sourceX="-230" sourceY="-409" targetY="28"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_q21_MEljEei_D5ZERlKKng" sourceConnectionVisual="_q24bcEljEei_D5ZERlKKng" text="Constructor para polígonos regulares" item="_q3VujEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_p5K2AEljEei_D5ZERlKKng"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_qxgMMEljEei_D5ZERlKKng" name="AbstractArea" abstractClass="true" associationsIn="_q2ey0EljEei_D5ZERlKKng" generalizations="_q1Z0wEljEei_D5ZERlKKng" subclassedBy="_q5JFQEljEei_D5ZERlKKng _q5S2QEljEei_D5ZERlKKng _q5Zj8EljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_osRlEEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_qxgMMUljEei_D5ZERlKKng" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_qxgMMkljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_qxgMM0ljEei_D5ZERlKKng" name="nombreFigura">
+      <modelElement href="Patrones.uml#_p3rBMEljEei_D5ZERlKKng"/>
+      <visibility xmi:id="_qxgMNEljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_qxgMNUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_qxgMNkljEei_D5ZERlKKng" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qxgMN0ljEei_D5ZERlKKng" name="AbstractArea">
+      <modelElement href="Patrones.uml#_osbWEEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_qxgMOEljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_qxgMOUljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_qxgMOkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qxgMO0ljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_osdLQkljEei_D5ZERlKKng"/>
+        <type xmi:id="_qxgMPEljEei_D5ZERlKKng" name="AbstractArea">
+          <modelElement href="Patrones.uml#_osRlEEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qxgzQEljEei_D5ZERlKKng" name="nombreFigura">
+        <modelElement href="Patrones.uml#_osbWEUljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_qxgzQUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_qxgzQkljEei_D5ZERlKKng" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_qxgzQ0ljEei_D5ZERlKKng" abstractOperation="true" name="calcularArea">
+      <modelElement href="Patrones.uml#_osdyUEljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_qxgzREljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_osfAcEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qxgzRUljEei_D5ZERlKKng" name="Annotations">
+        <modelElement href="Patrones.uml#_osgOkEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_qxgzRkljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_qxgzR0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qxgzSEljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_oseZYEljEei_D5ZERlKKng"/>
+        <type xmi:id="_qxgzSUljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_q1eGMEljEei_D5ZERlKKng" name="IArea" subclassedBy="_q1Z0wEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_osiDwEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q1eGMUljEei_D5ZERlKKng" position="112.0,-96.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q1eGMkljEei_D5ZERlKKng" label="+"/>
+    <operations xmi:id="_q1eGM0ljEei_D5ZERlKKng" name="calcularArea">
+      <modelElement href="Patrones.uml#_oufyoEljEei_D5ZERlKKng"/>
+      <visibility xmi:id="_q1eGNEljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q1eGNUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q1eGNkljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ougZsEljEei_D5ZERlKKng"/>
+        <type xmi:id="_q1eGN0ljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q3VucEljEei_D5ZERlKKng" name="CuerpoGeometrico" associationsOut="_q2ey0EljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_ougZsUljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q3VucUljEei_D5ZERlKKng" position="884.0,158.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q3VuckljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q3Vuc0ljEei_D5ZERlKKng" name="_estrategia">
+      <modelElement href="Patrones.uml#_p3roQEljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q3VudEljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p3wgwEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q3VudUljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3VudkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q3Vud0ljEei_D5ZERlKKng" name="AbstractArea">
+        <modelElement href="Patrones.uml#_osRlEEljEei_D5ZERlKKng"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q3VueEljEei_D5ZERlKKng" name="radio">
+      <modelElement href="Patrones.uml#_p3wgwUljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q3VueUljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p3xH0EljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q3VuekljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3Vue0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q3VufEljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q3VufUljEei_D5ZERlKKng" name="lados">
+      <modelElement href="Patrones.uml#_p3xu4EljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q3VufkljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p3yV8EljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q3Vuf0ljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3VugEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q3VugUljEei_D5ZERlKKng" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q3VugkljEei_D5ZERlKKng" name="base">
+      <modelElement href="Patrones.uml#_p3yV8UljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q3Vug0ljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p32nYEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q3VuhEljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3VuhUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q3VuhkljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q3Vuh0ljEei_D5ZERlKKng" name="altura">
+      <modelElement href="Patrones.uml#_p32nYUljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q3VuiEljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p33OcEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q3VuiUljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q3VuikljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q3Vui0ljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q3VujEljEei_D5ZERlKKng" comments="_q21_MEljEei_D5ZERlKKng" targetConnectionVisual="_q24bcEljEei_D5ZERlKKng" name="CuerpoGeometrico">
+      <modelElement href="Patrones.uml#_oui18EljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q3VujUljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q3VujkljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q3Vuj0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q3VukEljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_oujdA0ljEei_D5ZERlKKng"/>
+        <type xmi:id="_q3VukUljEei_D5ZERlKKng" name="CuerpoGeometrico">
+          <modelElement href="Patrones.uml#_ougZsUljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q3VukkljEei_D5ZERlKKng" name="radio">
+        <modelElement href="Patrones.uml#_oui18UljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q3Vuk0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q3VulEljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q3VulUljEei_D5ZERlKKng" name="lados">
+        <modelElement href="Patrones.uml#_oujdAEljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q3VulkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q3Vul0ljEei_D5ZERlKKng" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q4kdgEljEei_D5ZERlKKng" name="ConstructorIncorrectException">
+    <modelElement href="Patrones.uml#_ounHYEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q4lEkEljEei_D5ZERlKKng" position="891.0,373.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q4lEkUljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q4lEkkljEei_D5ZERlKKng" defaultValue="-661867824307530535L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Patrones.uml#_p331gEljEei_D5ZERlKKng"/>
+      <visibility xmi:id="_q4lEk0ljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q4lElEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q4lroEljEei_D5ZERlKKng" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q4lroUljEei_D5ZERlKKng" name="ConstructorIncorrectException">
+      <modelElement href="Patrones.uml#_ounucEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q4lrokljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q4lro0ljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q4lrpEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q4lrpUljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ouoVgkljEei_D5ZERlKKng"/>
+        <type xmi:id="_q4lrpkljEei_D5ZERlKKng" name="ConstructorIncorrectException">
+          <modelElement href="Patrones.uml#_ounHYEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q4x44EljEei_D5ZERlKKng" name="PoligonoNoExisteException">
+    <modelElement href="Patrones.uml#_oupjoEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q4x44UljEei_D5ZERlKKng" position="908.0,510.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q4x44kljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q4x440ljEei_D5ZERlKKng" defaultValue="5864253553672461183L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Patrones.uml#_p34ckUljEei_D5ZERlKKng"/>
+      <visibility xmi:id="_q4x45EljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q4x45UljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q4x45kljEei_D5ZERlKKng" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q4x450ljEei_D5ZERlKKng" name="PoligonoNoExisteException">
+      <modelElement href="Patrones.uml#_ouqxwEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q4x46EljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q4x46UljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q4x46kljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q4x460ljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ouqxw0ljEei_D5ZERlKKng"/>
+        <type xmi:id="_q4yf8EljEei_D5ZERlKKng" name="PoligonoNoExisteException">
+          <modelElement href="Patrones.uml#_oupjoEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q5Fa4EljEei_D5ZERlKKng" name="PoligonoNoSoportadoException">
+    <modelElement href="Patrones.uml#_our_4EljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q5Fa4UljEei_D5ZERlKKng" position="882.0,666.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q5Fa4kljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q5Fa40ljEei_D5ZERlKKng" defaultValue="1612665371341498178L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="Patrones.uml#_p35DoUljEei_D5ZERlKKng"/>
+      <visibility xmi:id="_q5Fa5EljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5Fa5UljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5Fa5kljEei_D5ZERlKKng" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q5Fa50ljEei_D5ZERlKKng" name="PoligonoNoSoportadoException">
+      <modelElement href="Patrones.uml#_outOAEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q5Fa6EljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q5Fa6UljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5Fa6kljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5Fa60ljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_outOA0ljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5Fa7EljEei_D5ZERlKKng" name="PoligonoNoSoportadoException">
+          <modelElement href="Patrones.uml#_our_4EljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q5N9wEljEei_D5ZERlKKng" name="AreaTriangulo" generalizations="_q5JFQEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_ovyMEEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q5N9wUljEei_D5ZERlKKng" position="443.0,186.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q5N9wkljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q5N9w0ljEei_D5ZERlKKng" name="base">
+      <modelElement href="Patrones.uml#_p38uAEljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5N9xEljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p39VEEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5N9xUljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5N9xkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5N9x0ljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q5N9yEljEei_D5ZERlKKng" name="altura">
+      <modelElement href="Patrones.uml#_p39VEUljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5N9yUljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p398IEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5N9ykljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5N9y0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5N9zEljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q5N9zUljEei_D5ZERlKKng" name="AreaTriangulo">
+      <modelElement href="Patrones.uml#_ovzaMEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q5N9zkljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q5N9z0ljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5N90EljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5N90UljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ov0BQ0ljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5N90kljEei_D5ZERlKKng" name="AreaTriangulo">
+          <modelElement href="Patrones.uml#_ovyMEEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q5N900ljEei_D5ZERlKKng" name="base">
+        <modelElement href="Patrones.uml#_ovzaMUljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q5N91EljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q5N91UljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q5N91kljEei_D5ZERlKKng" name="altura">
+        <modelElement href="Patrones.uml#_ov0BQEljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q5N910ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q5N92EljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q5N92UljEei_D5ZERlKKng" name="calcularArea">
+      <modelElement href="Patrones.uml#_ov0oUEljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5N92kljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_ov1PYEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <stereotypes xmi:id="_q5N920ljEei_D5ZERlKKng" name="Annotations">
+        <modelElement href="Patrones.uml#_ov1PYUljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5N93EljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5N93UljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5N93kljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ov0oUUljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5N930ljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q5VSgEljEei_D5ZERlKKng" name="AreaCircular" generalizations="_q5S2QEljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_ouucIEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q5VSgUljEei_D5ZERlKKng" position="561.0,386.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q5VSgkljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q5VSg0ljEei_D5ZERlKKng" name="radio">
+      <modelElement href="Patrones.uml#_p35qsUljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5VShEljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p36RwEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5VShUljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5VShkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5VSh0ljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q5VSiEljEei_D5ZERlKKng" name="AreaCircular">
+      <modelElement href="Patrones.uml#_ovpCIEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q5VSiUljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q5VSikljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5VSi0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5VSjEljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ovppM0ljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5VSjUljEei_D5ZERlKKng" name="AreaCircular">
+          <modelElement href="Patrones.uml#_ouucIEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q5VSjkljEei_D5ZERlKKng" name="radio">
+        <modelElement href="Patrones.uml#_ovppMEljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q5VSj0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q5VSkEljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q5VSkUljEei_D5ZERlKKng" name="calcularArea">
+      <modelElement href="Patrones.uml#_ovppNEljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5VSkkljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_ovq3UEljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <stereotypes xmi:id="_q5VSk0ljEei_D5ZERlKKng" name="Annotations">
+        <modelElement href="Patrones.uml#_ovq3UUljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5VSlEljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5VSlUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5VSlkljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ovqQQEljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5VSl0ljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_q5cAMEljEei_D5ZERlKKng" name="AreaPoligonoRegular" generalizations="_q5Zj8EljEei_D5ZERlKKng">
+    <modelElement href="Patrones.uml#_ovssgEljEei_D5ZERlKKng"/>
+    <visualProperties xmi:id="_q5cAMUljEei_D5ZERlKKng" position="345.0,566.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_q5cAMkljEei_D5ZERlKKng" label="+"/>
+    <attributes xmi:id="_q5cAM0ljEei_D5ZERlKKng" name="radio">
+      <modelElement href="Patrones.uml#_p36RwUljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5cANEljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p3640EljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5cANUljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5cANkljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5cAN0ljEei_D5ZERlKKng" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_q5cAOEljEei_D5ZERlKKng" name="numLados">
+      <modelElement href="Patrones.uml#_p37f4EljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5cAOUljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_p38G8EljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5cAOkljEei_D5ZERlKKng" label="-"/>
+      <cardinality xmi:id="_q5cAO0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <type xmi:id="_q5cAPEljEei_D5ZERlKKng" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_q5cAPUljEei_D5ZERlKKng" name="AreaPoligonoRegular">
+      <modelElement href="Patrones.uml#_ovuhsEljEei_D5ZERlKKng"/>
+      <keywords xmi:id="_q5cAPkljEei_D5ZERlKKng" keyword="create"/>
+      <visibility xmi:id="_q5cAP0ljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5cAQEljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5cAQUljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ovvIwkljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5cAQkljEei_D5ZERlKKng" name="AreaPoligonoRegular">
+          <modelElement href="Patrones.uml#_ovssgEljEei_D5ZERlKKng"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_q5cAQ0ljEei_D5ZERlKKng" name="radio">
+        <modelElement href="Patrones.uml#_ovuhsUljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q5cAREljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q5cARUljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_q5cARkljEei_D5ZERlKKng" name="numLados">
+        <modelElement href="Patrones.uml#_ovuhskljEei_D5ZERlKKng"/>
+        <cardinality xmi:id="_q5cAR0ljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+        <type xmi:id="_q5cASEljEei_D5ZERlKKng" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_q5cASUljEei_D5ZERlKKng" name="calcularArea">
+      <modelElement href="Patrones.uml#_ovvIw0ljEei_D5ZERlKKng"/>
+      <stereotypes xmi:id="_q5cASkljEei_D5ZERlKKng" name="LegacyStyledElement">
+        <modelElement href="Patrones.uml#_ovwW4EljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <stereotypes xmi:id="_q5cAS0ljEei_D5ZERlKKng" name="Annotations">
+        <modelElement href="Patrones.uml#_ovwW4UljEei_D5ZERlKKng"/>
+      </stereotypes>
+      <visibility xmi:id="_q5cATEljEei_D5ZERlKKng" label="+"/>
+      <cardinality xmi:id="_q5cATUljEei_D5ZERlKKng" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_q5cATkljEei_D5ZERlKKng">
+        <modelElement href="Patrones.uml#_ovvv0EljEei_D5ZERlKKng"/>
+        <type xmi:id="_q5cAT0ljEei_D5ZERlKKng" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
